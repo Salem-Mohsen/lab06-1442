@@ -1,0 +1,47 @@
+
+
+
+
+<!DOCTYPE html>
+<html >
+<head>
+<title>Temperatuer converter</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href=" CSS/HTML5-CSS-Reset.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src="Scripts/Script001.js"></script>
+<script src="Scripts/Script002.js"></script>
+
+
+
+</head>
+<body>
+ 
+<h2> temperature conversion, fahrenheit to celsius  </h2>
+<p>
+ Temperature in Fahrenheit: <input id = "tFah_id" type="text"><br>
+<button type="button" onclick="convert()";> Convert to Celsius </button><br>
+Temperature in Celsius: <span id="tCel_id"></span> 
+
+</p>
+
+		<h2> temperature conversion, celsius to fahrenheit </h2>
+	<p>
+		
+		<p>Type a value in the Celsius field to convert the value to Fahrenheit:</p>
+
+	<p>
+			<input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+	</p>
+
+		<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+ 
+
+
+</body>
+ </html>
